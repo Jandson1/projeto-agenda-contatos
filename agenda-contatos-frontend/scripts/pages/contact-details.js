@@ -17,6 +17,7 @@ const eventos = () => {
                 <p>Apelido: ${data.apelido}</p>
                 <p>Email: ${data.email}</p>
                 <p>Observação: ${data.notas}</p>
+
                 <hr/>
                 <h3>Endereço</h3>
                 <p>Logradouro: ${data.endereco.logradouro}</p>

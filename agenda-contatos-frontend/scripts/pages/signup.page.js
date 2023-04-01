@@ -40,10 +40,13 @@ export const Signup = () => {
         
         <label for="nome">Nome completo</label>
         <input type="nome" name="nome" required>
+
         <label for="email">E-mail</label>
         <input type="email" name="email" required>
+
         <label for="senha">Senha</label>
         <input type="password" name="senha" required>
+
         <button type="submit">Cadastrar</button>
         <span></span>
     `
