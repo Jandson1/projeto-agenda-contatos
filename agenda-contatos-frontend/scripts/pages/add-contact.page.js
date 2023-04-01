@@ -67,6 +67,7 @@ export const AddContact = () => {
             <h1>Novo contato</h1>
             <a href="/#contacts">Voltar para contatos</a>
         </div>
+
         <fieldset>
             <legend>Dados pessoais</legend>
             <input placeholder="Nome" name="nome" type="text" required/>
@@ -91,12 +92,14 @@ export const AddContact = () => {
                 <option value="celular">Celular</option>
             </select>
             <input name="numero-1" placeholder="Insira o número aqui..." type="phone" />
+
             <select name="tipo-telefone-2">
                 <option value="casa">Casa</option>
                 <option value="trabalho">Trabalho</option>
                 <option value="celular">Celular</option>
             </select>            
             <input name="numero-2" placeholder="Insira o número aqui..." type="phone" />
+
             <select name="tipo-telefone-3">
                 <option value="casa">Casa</option>
                 <option value="trabalho">Trabalho</option>
@@ -104,6 +107,7 @@ export const AddContact = () => {
             </select>
             <input name="numero-3" placeholder="Insira o número aqui..." type="phone" />
         </fieldset>
+
         <button>Cadastrar</button>
     `
 
