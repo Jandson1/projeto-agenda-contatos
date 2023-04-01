@@ -32,7 +32,7 @@ export const Login = () => {
         <label for="senha">Senha</label>
         <input type="password" name="senha">
 
-        <fieldset>
+        <fieldset id="campo">
             <input type="checkbox" name="salvar" id="salvar"  value="salvar">
             <label for="salvar">Salvar login?</label>
         </fieldset>

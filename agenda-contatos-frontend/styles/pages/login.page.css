@@ -1,56 +1,29 @@
-#p-not-found {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    justify-content: center;
-    text-align: center;
-  }
-  
-  #p-not-found h1 {
-    font-size: 36px;
-    margin-bottom: 20px;
-  }
-  
-  #p-not-found a {
-    background-color: #333;
-    border-radius: 4px;
-    color: #fff;
-    font-size: 14px;
-    padding: 8px 16px;
-    text-decoration: none;
-  }
-  
-  #p-not-found a:hover {
-    background-color: #666;
-  }
-
-  #p-add-contact {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 50px;
+#p-login {
+  max-width: 320px;
+  min-height: 100vh;
+  margin: 0 auto;
 }
 
-#cabecalho {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    margin-bottom: 20px;
+#p-login fieldset {
+  padding: 0;
+  margin: 0;
+  border: 0;
 }
 
-#cabecalho h1 {
-    font-size: 2.5rem;
-    margin: 0;
+#p-login input[type='radio'], input[type='checkbox'] {
+  margin-left: 0;
+  margin-right: 10px;
 }
 
-#cabecalho a {
-    color: #333;
-    text-decoration: none;
-    font-size: 1.2rem;
-    border: 1px solid #333;
-    border-radius: 5px;
-    padding: 5px 10px;
-    transition: background-color 0
-} 
+#p-login input:not(input[type='radio']):not(input[type='checkbox']), 
+#p-login button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  box-sizing: border-box;
+}
+
+#campo {
+  display: flex;
+  flex-direction: row;
+}
