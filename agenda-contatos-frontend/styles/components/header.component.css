@@ -1,0 +1,26 @@
+#c-header {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  #c-header span {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  #c-header a {
+    background-color: #333;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 14px;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  #c-header a:hover {
+    background-color: #666;
+  }
