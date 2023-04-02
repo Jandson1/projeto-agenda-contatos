@@ -54,3 +54,10 @@
     padding: 5px 10px;
     transition: background-color 0
 } 
+
+.foto{
+    position: relative;
+    display: block;
+    justify-content: center;
+    margin-left: 460px;
+}
