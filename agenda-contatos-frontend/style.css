@@ -12,7 +12,10 @@ body {
 
 * {
     box-sizing: border-box;
+<<<<<<< HEAD
+=======
     color: white;
+>>>>>>> 1d051ac038ec4bff04f325ba79169367121e4f25
 }
 
 form, fieldset {
@@ -27,6 +30,16 @@ form {
 }
 
 button {
+<<<<<<< HEAD
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #914fce;
+=======
     background-color: rgb(157, 211, 184);
     color: white;
     border: none;
@@ -36,6 +49,7 @@ button {
 
 button:hover {
     background-color: rgb(157, 250, 184);
+>>>>>>> 1d051ac038ec4bff04f325ba79169367121e4f25
 }
 
 textarea, input:not(input[type='radio']):not(input[type='checkbox']), button {
@@ -55,12 +69,20 @@ input[type='radio'], input[type='checkbox'] {
 
 label {
     font-weight: 500;
+<<<<<<< HEAD
+    color: blueviolet;
+=======
     color: rgb(157, 211, 184);
+>>>>>>> 1d051ac038ec4bff04f325ba79169367121e4f25
 }
 
 #cabecalho {
     display: flex;
     align-items: center;
     justify-content: space-between;
+<<<<<<< HEAD
+}
+=======
 }
 
+>>>>>>> 1d051ac038ec4bff04f325ba79169367121e4f25
