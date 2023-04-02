@@ -1,5 +1,5 @@
 #c-header {
-    background-color: #fff;
+    background-color: rgb(157, 250, 184);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     display: flex;
     justify-content: space-between;
@@ -15,7 +15,7 @@
   #c-header a {
     background-color: #333;
     border-radius: 4px;
-    color: #fff;
+    color: rgb(157, 250, 184);
     font-size: 14px;
     padding: 8px 16px;
     text-decoration: none;

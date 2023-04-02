@@ -1,3 +1,4 @@
+
 #p-login {
   max-width: 320px;
   min-height: 100vh;
@@ -8,6 +9,16 @@
   padding: 0;
   margin: 0;
   border: 0;
+  flex-direction: row;
+  justify-content: start;
+}
+
+#p-login p {
+  color: rgb(157, 211, 184);
+}
+
+#p-login p a {
+  color: rgb(157, 250, 184);
 }
 
 #p-login input[type='radio'], input[type='checkbox'] {
@@ -15,7 +26,6 @@
   margin-right: 10px;
 }
 
-<<<<<<< HEAD
 #cabecalho a {
     color: #333;
     text-decoration: none;
@@ -26,22 +36,16 @@
     transition: background-color 0
 } 
 
-.foto{
-    position: relative;
-    display: block;
-    justify-content: center;
-    margin-left: 460px;
-=======
 #p-login input:not(input[type='radio']):not(input[type='checkbox']), 
 #p-login button {
-  display: block;
-  width: 100%;
-  margin: 10px 0;
-  box-sizing: border-box;
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    box-sizing: border-box;
 }
 
 #campo {
   display: flex;
   flex-direction: row;
->>>>>>> 1d051ac038ec4bff04f325ba79169367121e4f25
+
 }
