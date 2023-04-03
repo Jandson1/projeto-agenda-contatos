@@ -1,21 +1,20 @@
 @import url(./styles/pages/login.page.css);
 @import url(./styles/components/header.component.css);
 @import url(./styles/components/card-contact-component.css);
+@import url(./styles/pages/404.page.css);
+@import url(./styles/pages/signup.page.css);
+@import url(./styles/pages/contacts.page.css);
 
 body {
     margin: 0;
     padding: 0 16px;
     font-family: 'Segoe UI', sans-serif;
-    background-color: #202020;
+    background-color: #000000;
     color: white;
 }
 
 * {
     box-sizing: border-box;
-<<<<<<< HEAD
-=======
-    color: white;
->>>>>>> 1d051ac038ec4bff04f325ba79169367121e4f25
 }
 
 form, fieldset {
@@ -30,16 +29,17 @@ form {
 }
 
 button {
-<<<<<<< HEAD
-    background-color: blueviolet;
+
+    background-color: rgb(157, 211, 184);
     color: white;
     border: none;
     cursor: pointer;
+    border-radius: 15px
 }
 
 button:hover {
     background-color: #914fce;
-=======
+
     background-color: rgb(157, 211, 184);
     color: white;
     border: none;
@@ -49,7 +49,7 @@ button:hover {
 
 button:hover {
     background-color: rgb(157, 250, 184);
->>>>>>> 1d051ac038ec4bff04f325ba79169367121e4f25
+
 }
 
 textarea, input:not(input[type='radio']):not(input[type='checkbox']), button {
@@ -69,20 +69,15 @@ input[type='radio'], input[type='checkbox'] {
 
 label {
     font-weight: 500;
-<<<<<<< HEAD
-    color: blueviolet;
-=======
     color: rgb(157, 211, 184);
->>>>>>> 1d051ac038ec4bff04f325ba79169367121e4f25
+
 }
 
 #cabecalho {
     display: flex;
     align-items: center;
     justify-content: space-between;
-<<<<<<< HEAD
-}
-=======
+
 }
 
->>>>>>> 1d051ac038ec4bff04f325ba79169367121e4f25
+

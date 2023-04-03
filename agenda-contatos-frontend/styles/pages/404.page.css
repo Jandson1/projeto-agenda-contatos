@@ -1,0 +1,21 @@
+#p-not-found{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    min-height: 100vh;
+    background-color: black;
+    
+}
+
+.foto{
+    padding-top: 50px;
+    align-self: center;
+    width: 70vh;
+}
+
+#p-not-found a {
+    text-align: center;
+    color: rgb(157, 250, 184)
+}
+
